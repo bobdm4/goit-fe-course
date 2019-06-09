@@ -1,4 +1,23 @@
-body{font-family: 'Playfair Display', serif;
+body {font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
 }
-p.h{font-family: 'Ubuntu', 'Arial', sans-serif;
+.main-menu{
+    list-style: none;
 }
+.main-menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-menu-link:hover{color: royalblue
+}
+.article-img-name{font-family: 'Ubuntu', 'Arial', sans-serif;
+    color: #b4ad9e;
+    line-height: 17px;
+}
+.artticle-tittle{
+    font-size: 30;
+    line-height: 36px;
+}
+    
