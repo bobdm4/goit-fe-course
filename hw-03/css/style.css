@@ -1,9 +1,8 @@
 html{
     box-sizing: border-box;
 }
-*,
-*: ::before,
-*:::after{
+*, * ::before,
+*::after{
     box-sizing: inherit;
 }
 
@@ -11,6 +10,9 @@ body {font-family: 'Playfair Display', serif;
     color: #626262;
     font-size: 14px;
     line-height: 24px;
+}
+.main-menu-link{ 
+    color: #626262;
 }
 .article-img-name{
     text-transform: uppercase;
@@ -51,7 +53,6 @@ img {
     padding: 0;
     list-style: none;
     text-align: center;
-    vertical-align: middle;
 }
 
 .main-menu li:not(:last-child){
