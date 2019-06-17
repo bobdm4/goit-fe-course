@@ -84,11 +84,15 @@ ul{
     }
 
 
-.artticle-tittle{
+.article-tittle{
     font-size: 30;
     line-height: 36px;
     margin: 0px;
     margin-bottom: 40px;
+}
+
+.second{
+    margin: 0;
 }
 
 .article{
