@@ -93,6 +93,7 @@ img {
     margin-bottom: 100px;
 }
 .item{
+    background-color: #1abc9c;
     list-style: none;
     float: left;
     margin: 0;
