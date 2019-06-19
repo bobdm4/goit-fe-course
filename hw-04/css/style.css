@@ -34,8 +34,12 @@ img {
      margin: 0;
      padding: 0;
  }
-
+.logo::first-letter{
+    font-weight: bold;
+    color: #1abc9c;
+}
 .main{
+    float: right;
     margin: 0;
     padding: 0;
     margin-top: 5px;
@@ -49,8 +53,7 @@ img {
 .main li{
     float: left;
 }
-.main{float: right
-}
+
 .page-nav{
     padding: 35px 0px 106px 0px;
 }
@@ -77,15 +80,24 @@ img {
 }
 
 .logo{
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+    line-height: 32px;
     display: inline-block;
     vertical-align: middle;
 }
-
+.item-list{
+    margin-bottom: 100px;
+}
 .item{
     list-style: none;
     float: left;
     margin: 0;
     padding: 0;
+    margin-bottom: 30px;
     width: 255px;
     font-size: 14px;
     font-weight: bold;
@@ -97,6 +109,7 @@ img {
 
  .title{
     margin: 0;
+    margin-bottom: 110px;
     color: #515151;
     font-size: 48px;
     line-height: 32px;
@@ -106,9 +119,12 @@ img {
  }
  
 
- .item p{
+ .name{float: left;
+     display: block;
+     width: 201px;
      margin: 0;
      padding: 0;
+     padding-left: 15px;
      text-transform: uppercase;
      font-weight: bold;
      color: #ffffff;
@@ -119,12 +135,18 @@ img {
     background-color: #1abc9c;
 }
 
+
 .price{
+    display: block;
+    width: 54px;
     float: right;
-    background: #ffffff; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #000000; 
     opacity: 0.8; 
     filter: alpha; 
-    color: #000000;  
+    color: #ffffff;  
     text-decoration: #ffffff;
 }
 
@@ -158,6 +180,8 @@ img {
 }
 
 .first{
+    margin: 0;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 .first::after{
@@ -166,22 +190,25 @@ img {
     width: 137px;
     height: 3px;
     content: '';
+    margin-top: 15px;
 }
-
-button.box{
+.second{
+    margin: 0;
+    margin-bottom: 16px;
+}
+.news a{
     display: block;
-   
-}
-
-.box{
-    width: 160px;
-    height: 50px;
     background-color: #4ec6ab;
     font-family: 'Open Sans', sans-serif;
+    width: 159px;
+    height: 51px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
     border-radius: 10px;
     border-style: none;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 26px;
-    cursor: pointer;
 }
+
