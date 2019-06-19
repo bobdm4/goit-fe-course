@@ -69,13 +69,13 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-
 }
 
 .main a:hover,
 .main a:focus{
     color: #1abc9c;
 }
+
 .logo{
     display: inline-block;
     vertical-align: middle;
@@ -96,6 +96,7 @@ img {
  }
 
  .title{
+    margin: 0;
     color: #515151;
     font-size: 48px;
     line-height: 32px;
@@ -108,7 +109,6 @@ img {
  .item p{
      margin: 0;
      padding: 0;
-     margin-bottom: 30px;
      text-transform: uppercase;
      font-weight: bold;
      color: #ffffff;
@@ -120,7 +120,6 @@ img {
 }
 
 .price{
-    
     float: right;
     background: #ffffff; 
     opacity: 0.8; 
@@ -137,7 +136,7 @@ img {
     content: '';
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 90px;
+    
 }
 
 .news{
