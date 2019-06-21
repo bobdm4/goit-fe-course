@@ -193,19 +193,20 @@ h2::after{
     margin: 0 auto;
     margin-top: 30px;
  }
+ 
 .item{
     background-color: #1abc9c;
     list-style: none;
     float: left;
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
     width: 255px;
     font-size: 14px;
     font-weight: bold;
-    position: relative;
-    
+    position: relative;   
  }
+
+
  .name{float: left;
     display: block;
     width: 201px;
@@ -219,6 +220,9 @@ h2::after{
 
 }
 
+.item-list{
+    padding-bottom: 120px;
+}
 .item-list li:hover>p{
    background-color: #1abc9c;
 }
