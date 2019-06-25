@@ -118,6 +118,7 @@ img {
 .slider_content li{
     padding-left: 175px;
 }
+
 .slider-tittle{
     margin: 0;
     font-size: 60px;
@@ -134,6 +135,15 @@ img {
     text-transform: uppercase;
     color: #ffffff;
 
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100%;
 }
 
 .rights, 
@@ -224,9 +234,11 @@ h2::after{
 .item-list{
     padding-bottom: 120px;
 }
+
 .item-list li:hover>p{
    background-color: #1abc9c;
 }
+
 .item-list>li:not(:nth-child(4n+4)){
     margin-right: 30px;
  }
@@ -250,8 +262,7 @@ h2::after{
     position: absolute;
     z-index: 2;
     top: 0;
-    left: 0;
-
+    left: 0;  
     visibility: hidden;
 }
 
@@ -260,9 +271,12 @@ h2::after{
     cursor: pointer;
     visibility: visible;
     z-index: 1;
-
+    display: inline-block;
 }
 
+.hover_box{
+    display: inline-block;
+}
 .hover{
     width: 235px;
     height: 265px;
@@ -274,17 +288,25 @@ h2::after{
 }
 
 
-.hover_box{
+
+
+button{
+    text-align: center;
     margin: 0;
     padding: 0;
     display: inline-block;
     width: 50px;
     height: 50px;
     border: 1px solid white;
-}
+    background-color: transparent;
+   
 
-.hover_box:hover{
+}
+button:hover{
     background-color: #1abc9c;
+}
+.cart:hover{
+    background: transparent;
 }
 .hover_box:not(:last-child){
     margin-right: 10px;
@@ -300,14 +322,18 @@ h2::after{
     border: 1 solid #Ffffff;
     vertical-align: top;
     padding: 0;
+    margin: 0;
     text-decoration: none;
     text-align: center;    
 }
 
+.cart{
+    border: none;
+}
 .like, .shuffle, .clock, .cart::before{
     font-size: 30px;
     line-height: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 
