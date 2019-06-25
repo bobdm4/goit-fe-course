@@ -182,27 +182,27 @@ img {
 
 
 .ser01{
-    background-image: url(/img/ser01.png);
+    background-image: url(./img/ser01.png);
     background-repeat: no-repeat;
 }
 .ser02{
-    background-image: url(/img/ser02.png);
+    background-image: url(./img/ser02.png);
     background-repeat: no-repeat;
 }
 .ser03{
-    background-image: url(/img/ser03.png);
+    background-image: url(./img/ser03.png);
     background-repeat: no-repeat;
 }
 .ser04{
-    background-image: url(/img/ser04.png);
+    background-image: url(./img/ser04.png);
     background-repeat: no-repeat;
 }
 .ser05{
-    background-image: url(/img/ser05.png);
+    background-image: url(./img/ser05.png);
     background-repeat: no-repeat;
 }
 .ser06{
-    background-image: url(/img/ser06.png);
+    background-image: url(./img/ser06.png);
     background-repeat: no-repeat;
 }
 
@@ -273,7 +273,7 @@ img {
     width: 57px;
     height: 57px;
     background-color: #fce38a;
-    background-image: url(/img/facebook.png);
+    background-image: url(./img/facebook.png);
     background-repeat: no-repeat;
     background-position: 22px 15px;
 }
@@ -284,7 +284,7 @@ img {
     width: 57px;
     height: 57px;
     background-color: #fce38a;
-    background-image: url(/img/twitter.png);
+    background-image: url(./img/twitter.png);
     background-repeat: no-repeat;
     background-position: 15px 15px;
 }
@@ -296,7 +296,7 @@ img {
     width: 57px;
     height: 57px;
     background-color: #fce38a;
-    background-image: url(/img/pinterest.png);
+    background-image: url(./img/pinterest.png);
     background-repeat: no-repeat;
     background-position: 15px 15px;
 }
@@ -308,7 +308,7 @@ img {
     width: 57px;
     height: 57px;
     background-color: #fce38a;
-    background-image: url(/img/instagram.png);
+    background-image: url(./img/instagram.png);
     background-repeat: no-repeat;
     background-position: 15px 15px;
 }
