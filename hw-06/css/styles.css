@@ -92,28 +92,25 @@ img {
 }
 
 
-/* tittle */
-/* .services{
-    position: relative;
-} */
-
+.services{
+    padding-top: 110px;
+}
 
 .announcement{
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     text-align: center;
-    margin-top: 130px;
     margin-bottom: 110px;
 }
 .tittle_comment{
+    margin: 0;
+    padding: 0;
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
     color: #999999;
 }
 
 .tittle_first{
+    margin: 0;
+    padding: 0;
     position: relative;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -152,6 +149,8 @@ img {
 }
 
 .service_item{
+    margin: 0;
+    padding: 0;
     width: 381px;
     background-position: top;
     background-position-x: 30px;
@@ -219,9 +218,7 @@ img {
     position: relative;
 
 }
-/* .teammate{
-    background-color: #95e1d3;
-} */
+
 
 
 .hover{
@@ -241,6 +238,13 @@ img {
 
 .team_list_item:hover .card_hover {
     visibility: visible;
+    transform: translate(-10px, -10px);
+    transition-property:
+    visibility,
+    transform;
+    transition-duration: 200ms;
+}
+.team_list_item:hover .teammate{
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px 0 #95e1d3;
     transition-property:
@@ -317,6 +321,9 @@ img {
     background-color: #95e1d3;
 }
 
+.hover_box:not(:last-child){
+    margin-right: 1px;
+}
 
 .team_list{
     display: flex;
