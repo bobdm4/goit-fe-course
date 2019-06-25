@@ -72,6 +72,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     display: block;
+    color: #000000;
 }
 
 .main a:hover,
