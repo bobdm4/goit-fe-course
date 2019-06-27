@@ -82,7 +82,7 @@ body{
     font-size: var(--def_font_size);
 }
 
-.first{
+.bg{
     background-image: url(../img/bg.jpg);
     background-position: center top;
     background-size: cover;
@@ -266,15 +266,12 @@ body{
 }
 
 @media screen and (min-width: 768px){
-    .first  {
-        height: 701px;
-    }
-
     .header{
         display: flex;
         justify-content: space-between;
         align-items: center;    
-       
+        margin-bottom: 80px;
+        
     }
     .menu{
         margin: 40px 0;
@@ -283,6 +280,10 @@ body{
         width: 170px;
         justify-content: flex-end;
         align-content: center;
+    }
+
+    .tittle{
+        padding-bottom: 234px;
     }
     .tittle1{
         font-size: 52px;
@@ -314,8 +315,8 @@ body{
     }
 }
 
- @media screen and (min-width: 1440px){
-  
+    @media screen and (min-width: 1440px){
+    
     .partner_list{
         width: 100%;
     }
