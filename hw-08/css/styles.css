@@ -112,28 +112,40 @@ body{
     list-style: none;
     margin: 0 auto;
     margin-bottom: 115px;
+
 }
 
 .link{
     line-height: 36px;
     text-decoration: none;
     color: #ffffff;
+
 }
 
 .m_link{
+    
     display: block;
+    align-content: center;
     text-align: center;
     width: 90px;
     height: 36px;
+    border: 3px solid transparent;
+}
+
+.m_link:hover,
+.m_link:focus{
+    border: 3px solid #ffffff;
+    border-radius: 18px;
     
 }
 
-.m_link:hover{
-    border: 3px solid #ffffff;
-    border-radius: 18px;
-}
-
 .tittle{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    width: 280px;
+    margin: 0 auto  ;
     text-align: center;
     color:#ffffff;
     padding-bottom: 140px;
@@ -283,11 +295,12 @@ body{
     }
 
     .tittle{
+        width: 560px;
         padding-bottom: 234px;
     }
+
     .tittle1{
         font-size: 52px;
-        width: 510px;
         margin: 0 auto;
         margin-bottom: 40px;
     }
@@ -305,22 +318,25 @@ body{
     .partner_list{
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: 0 auto;
-        margin-bottom: 40px;
         width: 492px;
+        margin-bottom: 40px;
     }
     .see{
         margin-bottom: 40px;
     }
 }
 
-    @media screen and (min-width: 1440px){
-    
+
+@media screen and (min-width: 960px){
     .partner_list{
         width: 100%;
     }
-    .see{
-        margin-bottom: 73px;;
-    }
+.see{
+    margin-bottom: 73px;
 }
+
+}
+
+
