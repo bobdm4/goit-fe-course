@@ -90,7 +90,7 @@ body{
 } 
 
 
-.header{
+.nav{
     margin-bottom: 40px;
 }
 
@@ -106,11 +106,11 @@ body{
 }
 
 .menu{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     width: 150px;
     list-style: none;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 115px;
 
 }
@@ -278,18 +278,18 @@ body{
         max-width: 560px;
     }
     .header{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
         align-items: center;    
-        margin-bottom: 80px;
-        
+   
+        padding-top: 40px;
     }
     .menu{
-        margin: 40px 0;
-        display: flex;
-        order: 1;   
+        /* margin: 40px 0; */
+        /* display: flex;
+        order: 1;    */
         width: 170px;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
         align-content: center;
     }
 
@@ -307,9 +307,9 @@ body{
         margin-bottom: 40px;
     }
   
-    .partner_item:nth-child(-n+2){
+    /* .partner_item:nth-child(-n+2){
         margin-bottom: 60px;
-    }
+    } */
 
     .see{
         margin-bottom: 40px;
@@ -321,8 +321,8 @@ body{
     .container{
         max-width: 960px;
     }
-    .see{
-    margin-bottom: 73px;
+    .team{
+    padding-bottom: 73px;
     }
 
 }
