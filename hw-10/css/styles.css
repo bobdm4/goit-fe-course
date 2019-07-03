@@ -127,7 +127,7 @@ body {
   align-items: flex-end;
   -ms-flex-line-pack: middle;
   align-content: middle;
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .logo {
@@ -221,8 +221,8 @@ body {
 .banner__title {
   text-transform: uppercase;
   font-size: 150px;
-  width: 821px;
-  padding-bottom: 125px;
+  width: 850px;
+  margin-bottom: 125px;
 }
 
 .baner__link {
@@ -238,6 +238,7 @@ body {
 }
 
 .section {
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -252,20 +253,20 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 45px;
-  padding-bottom: 110px;
+  
 }
 
 .section_title__comment {
   font-family: "Kaushan Script";
   font-size: 24px;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .section_title__main {
   font-size: 30px;
   text-transform: uppercase;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .section_title__main::after {
@@ -355,7 +356,7 @@ body {
   width: 955px;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 .team_list {
@@ -491,12 +492,17 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 30px;
+  align-content: center;
 }
 
 .hover__link {
+  display: inline-block;
+  line-height: 70px;
+  height: 50px;
+  width: 50px;
   background-color: #fce38a;
 }
+
 .hover_list__icon {
   fill: #f38181;
   width: 30px;
