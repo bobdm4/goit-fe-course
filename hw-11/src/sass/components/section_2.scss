@@ -1,0 +1,113 @@
+.section {
+  &__lorem {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: $color_grey;
+    width: 955px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+}
+
+.team_list {
+  @include flex_sb('jcsb');
+  list-style: none;
+  text-align: center;
+
+  &__item {
+    position: relative;
+
+    &:hover {
+      .hover {
+        visibility: visible;
+        transform: translate(-10px, -10px);
+        transition-property: visibility, transform;
+        transition-duration: 200ms;
+      }
+
+      .team_list__img {
+        transform: translate(-10px, -10px);
+        box-shadow: 10px 10px 0 $color_green;
+        transition-property: visibility, transform, box-shadow;
+        transition-duration: 200ms;
+      }
+    }
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  &__position {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: $color_grey;
+  }
+}
+
+.hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 470px;
+  padding: 0;
+  margin: 0;
+  background-color: $color_green;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.3),
+    rgba(252, 227, 138, 0.3)
+  );
+  text-align: center;
+  transition-property: all;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition-property: visibility, transform, box-shadow;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    align-content: center;
+  }
+
+  &__link {
+    display: inline-block;
+    line-height: 70px;
+    height: 50px;
+    width: 50px;
+    background-color: $color_yellow;
+
+    &:not(:last-child) {
+      margin-right: 1px;
+    }
+
+    &:hover {
+      background-color: $color_red;
+      fill: #ffffff;
+
+      & svg {
+        fill: #ffffff;
+      }
+    }
+  }
+}
+
+.hover_list__icon {
+  fill: $color_red;
+  width: 30px;
+  height: 27px;
+}

@@ -1,0 +1,44 @@
+.footer {
+  @include flex_sb('cc');
+  min-height: 60px;
+  border-top: 1px solid #ffffff;
+
+  &__text {
+    font-family: 'Montserrat';
+    color: $color_grey1;
+  }
+}
+
+.autor {
+  color: $color_red1;
+}
+
+.footer_form {
+  @include flex('rw');
+  &__input {
+    height: 40px;
+    width: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: $color_grey2;
+    border-color: $color_grey2;
+    border-style: solid;
+    border-right: none;
+  }
+
+  &__button {
+    height: 40px;
+    width: 150px;
+    background-color: $color_green;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+  }
+}
+
+

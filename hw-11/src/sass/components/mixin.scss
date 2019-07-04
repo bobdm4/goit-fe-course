@@ -1,0 +1,28 @@
+@mixin bg_image($path: '') {
+  background-image: url($path);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin flex_sb($type: 'jcsb') {
+  display: flex;
+  justify-content: space-between;
+  @if $type== 'cc' {
+    align-items: center;
+    align-content: center;
+  } @else if $type== 'start' {
+    align-items: flex-start;
+    align-content: flex-start;
+  } @else if $type== 'end' {
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+}
+
+@mixin flex($type: 'rw') {
+  flex-flow: row wrap;
+  @if $type== 'cw' {
+    flex-flow: column wrap;
+  }
+}
